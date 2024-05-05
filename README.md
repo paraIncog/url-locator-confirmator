@@ -1,6 +1,8 @@
 # URL Locator Confirmator
 Version 0.1
 
+A security application for checking URL's using Node.js and Express. This app is open-source, you can use, fork, clone, edit this program for further development or research.
+
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
