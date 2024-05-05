@@ -1,6 +1,5 @@
 # URL Locator Confirmator
-<!-- Screenshot -->
-Version 0.2
+Version 0.1
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -30,7 +29,7 @@ Make sure you have latest web browser and Node.js installed. Ensure you have Git
     npm install
 3. Start the local server:
     ```bash
-    node server.js
+    npm run start
 4. Open your browser and navigate to http://localhost:4000.
 
 ## Features
