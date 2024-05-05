@@ -9,6 +9,22 @@ body {
 	padding: 2rem;
 }
 
+p {
+	font-size: 1.5rem;
+	margin: 1rem;
+}
+
+input {
+	background-color: #ffffff;
+	border: 0;
+	outline: 0;
+	border-radius: 100vh;
+	height: 1.5rem;
+	width: 20rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
 /* Result Colors */
 
 .res-bad {
@@ -26,4 +42,22 @@ body {
 	position: absolute;
 	bottom: 0;
 	padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		font-size: .75rem;
+		padding: 1rem;
+	}
+
+	input {
+		height: 1.75rem;
+		width: 17.5rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.footer {
+		padding-bottom: 1rem;
+	}
 }

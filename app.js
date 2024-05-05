@@ -34,7 +34,7 @@ function showResults() {
       country.tlds.some((tld) => input.endsWith(tld))
     );
     if (matchedCountry) {
-      result.innerHTML = `<p class="res-good">Country</p>${matchedCountry.country}`;
+      result.innerHTML = `<p class="res-good">Country</p><p>${matchedCountry.country}</p>`;
     } else {
       result.innerHTML = `<p class="res-bad">No matching country found for the TLD</p>`;
     }
