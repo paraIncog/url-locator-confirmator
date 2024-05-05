@@ -1,7 +1,7 @@
 body {
 	align-items: center;
 	background-color: #000;
-	color: white;
+	color: #ffffff;
 	display: flex;
 	flex-direction: column;
 	font-family: Arial, Helvetica, sans-serif;
@@ -12,11 +12,11 @@ body {
 /* Result Colors */
 
 .res-bad {
-	color: red;
+	color: #ff0000;
 }
 
 .res-good {
-	color: lightgreen;
+	color: #90ee90;
 	font-weight: bold;
 }
 
