@@ -17,4 +17,13 @@ body {
 
 .res-good {
 	color: lightgreen;
+	font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 2rem;
 }
