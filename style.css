@@ -8,3 +8,13 @@ body {
 	justify-content: center;
 	padding: 2rem;
 }
+
+/* Result Colors */
+
+.res-bad {
+	color: red;
+}
+
+.res-good {
+	color: lightgreen;
+}
